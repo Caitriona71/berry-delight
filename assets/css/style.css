@@ -7,7 +7,9 @@ body {
     background-color: rgba(46, 2, 48);
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: 'Kaushan Script', 'Brush Script MT', cursive;
 }
 
@@ -24,13 +26,23 @@ header {
     color: #fff;
 }
 
-
-h1, h2, p {
+header>p {
     color: #fff;
 }
 
 header {
+    background-color: ????;
+}
+
+header {
     background-color: rgba(46, 2, 48);
+}
+
+h1,
+h2,
+h3,
+p {
+    color: #fff;
 }
 
 #home {
@@ -39,9 +51,9 @@ header {
     background-image: url(../images/frozen\ yogurt\ parlour.jpg);
     background-size: cover;
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .page-header {
@@ -50,7 +62,7 @@ header {
 }
 
 .form-page-header {
-    background-image: url(../images/triple-berry-frozen-yogurt\ \(2\).jpg)
+    background-image: url("assets/images/frozen-yogurt-berries.jpg")
 }
 
 .text-center {
@@ -69,13 +81,13 @@ strong {
     text-transform: underline;
 }
 
-nav > a {
+nav>a {
     text-decoration: none;
     color: #fff;
     margin: 1rem;
 }
 
-nav > a:hover {
+nav>a:hover {
     color: silver;
 }
 
@@ -85,4 +97,48 @@ li {
 
 .bold {
     font-weight: bold;
+}
+
+#smoothies-box {
+    background-color: rgba(233, 149, 121, 1);
+    position: relative;
+    left: 70px;
+    top: -15px;
+}
+#frozen-yogurt-box {
+    background-color: rgba(255, 85, 155, 1);
+    position: relative;
+    z-index: 1;
+}
+
+#coolers-box {
+    background-color: rgba(196, 201, 184, 1); 
+    position: relative;
+    right: 70px;
+    top: -15px;
+}
+
+.vertical-center {
+    position: relative;
+    top: 30%;
+}
+
+.one-third-width-column {
+    width: 33.33%;
+    display: inline-block;
+}
+
+.two-thirds-width-column {
+    width: 66.66%;
+    display: inline-block;
+}
+
+.ingredients-box {
+    padding: 10px 5px 25px 5px;
+    width: 100%
+    margin: 2%;
+    background-color:  rgba(255, 85, 155, 1);
+    position: relative;
+    left: 20%
+    top: 30px;
 }
