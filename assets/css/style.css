@@ -31,17 +31,10 @@ header>p {
 }
 
 header {
-    background-color: ????;
-}
-
-header {
     background-color: rgba(46, 2, 48);
 }
 
-h1,
-h2,
-h3,
-p {
+h1, h2, h3, p {
     color: #fff;
 }
 
@@ -105,6 +98,7 @@ li {
     left: 70px;
     top: -15px;
 }
+
 #frozen-yogurt-box {
     background-color: rgba(255, 85, 155, 1);
     position: relative;
@@ -120,7 +114,7 @@ li {
 
 .vertical-center {
     position: relative;
-    top: 30%;
+    top: 30%
 }
 
 .one-third-width-column {
@@ -139,7 +133,7 @@ li {
     margin: 2%;
     background-color:  rgba(255, 85, 155, 1);
     position: relative;
-    left: 20%;
+    right: 70%;
     top: 30px;
 }
 
@@ -182,4 +176,35 @@ li {
     margin: 0 auto;
     text-align: center;
 }
+td {
+    border-bottom: 1px #fff;
+}
 
+ul {
+    padding: 0;
+}
+
+#ingredients li {
+    margin-top: 5%;
+}
+
+a:hover {
+    text-decoration: none;
+    color: 
+}
+
+footer {
+    background-color:  rgba(233, 149, 121, 1);
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+footer > span {
+    color:rgba(233, 149, 121, 1);
+}
+
+footer > a {
+    color:rgba(233, 149, 121, 1);
+}
